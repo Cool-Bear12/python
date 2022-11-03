@@ -50,3 +50,21 @@
 #     x= 5 / number
 # except Exception:
 #     pass # затычка ничего не будет
+
+ints = []
+try:
+    f=open("fb.txt")
+except FileNotFoundError:
+    print("Ну не получилось 😭")
+else:
+    try:
+        for line in f:
+            print(line)
+            ints.append(int(line))
+    except ValueError:
+        print("Тут не чиселки, чел")
+    else:# если ошибок нет
+        print(ints)
+    finally:# ваще всегда
+        f.close()
+        print("Я закрыл файл")
