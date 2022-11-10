@@ -43,7 +43,7 @@
 # t.color("purple","pink")
 # t.begin_fill()
 # t.circle(50)
-# t.end_fill()
+# t.en.d_fill()
 #
 # t.pencolor("dark green")
 # t.write("Movavi", font=("Ariel Black", 50,"italic"),align="center")
