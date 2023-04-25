@@ -26,9 +26,9 @@ import tkinter as tk
 # # #                     ) # coздали переключатель
 # # # cb.pack()
 # #
-# # def get_rb():
-# #      print(val_rb.get)
-# # val_rb = tk.IntVar()
+# def get_rb():
+#     print(val_rb.get)
+#     val_rb = tk.IntVar()
 # # rb1 = tk.Radiobutton(root, text="Добрый кола",
 # #                       variable = val_rb,
 # #                       value = 1,
@@ -116,7 +116,7 @@ import tkinter as tk
 #ЗАДАЧА2
 def bold():
     lab["font"] += " bold"
-root = tk.Tk
+root = tk.Tk()
 lab = tk.Label(root,
                text = "Я текст.А ты кто?",
                font="Arial 12")
